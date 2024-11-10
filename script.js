@@ -1,4 +1,4 @@
-$("#gen").on("click", function () {
+$("#作成").on("click", function () {
   const kosuu = $("#kosuu").val();
   const result = $("#generated");
   if (isNaN(Number(kosuu))) {
